@@ -10,7 +10,6 @@ function setup(){
 function draw(){
 
 ellipse(random([value]),random([value]),value)
-
 }
 
 function mouseDragged() {
@@ -18,7 +17,6 @@ function mouseDragged() {
     if (value > 255) 
       value = 0;
     }
-
 
 
 
